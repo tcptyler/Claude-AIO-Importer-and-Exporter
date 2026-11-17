@@ -1,0 +1,20 @@
+{
+  "name": "session-transfer",
+  "version": "1.0.0",
+  "description": "Export a Claude chat, Cowork task or Claude Code session to one .zip (full transcript, pasted images, attachments, every artifact version, files, memory and a handoff brief), then import it into a fresh session to pick up exactly where you left off.",
+  "keywords": [
+    "export",
+    "import",
+    "backup",
+    "transcript",
+    "handoff",
+    "session",
+    "memory"
+  ],
+  "homepage": "https://github.com/tcptyler/Claude-AIO-Importer-and-Exporter",
+  "repository": "https://github.com/tcptyler/Claude-AIO-Importer-and-Exporter",
+  "author": {
+    "name": "tcptyler",
+    "url": "https://github.com/tcptyler"
+  }
+}

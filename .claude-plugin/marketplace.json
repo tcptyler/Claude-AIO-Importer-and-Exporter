@@ -1,0 +1,18 @@
+{
+  "name": "aio-importer-exporter",
+  "owner": {
+    "name": "tcptyler"
+  },
+  "metadata": {
+    "description": "Claude AIO Importer and Exporter: carry a Claude conversation, with every message, image, file and artifact, into a fresh chat.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "session-transfer",
+      "source": "./plugins/session-transfer",
+      "description": "Export a Claude chat, Cowork task or Claude Code session to one .zip (full transcript, pasted images, attachments, every artifact version, files, memory and a handoff brief), then import it into a fresh session to pick up where you left off.",
+      "version": "1.0.0"
+    }
+  ]
+}
